@@ -15,7 +15,7 @@ app
   })
   .use('/professional', professionalRoutes);
 app.get("/", (req, res) => {
-  res.send("Working..")
+  res.send("Working..");
 })
 
 mongodb.initDb((err, mongodb) => {
